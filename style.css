@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  width: 600px;
+  border-radius: 3%;
+}
+
+img {
+  border-radius: 3% 0% 0% 3%;
+  width: 50%;
+}
+
+.text {
+  gap: 15px;
+  width: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tag {
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+
+h1 {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  color: hsl(212, 21%, 14%);
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: hsl(228, 12%, 48%);
+}
+
+.price {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20%;
+}
+
+.price p {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 400;
+}
+
+.price p:first-of-type {
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-size: 31px;
+  margin: 0;
+}
+
+.price p:last-of-type {
+  text-decoration: line-through;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 100%;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 7px;
+  align-self: center;
+  background-color: hsl(158, 36%, 37%);
+}
+
+button:hover {
+  background-color: hsl(158, 38%, 49%);
+  cursor: pointer;
+}
